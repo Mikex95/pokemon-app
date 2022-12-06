@@ -1,0 +1,82 @@
+.typepage h1 {
+    text-align: center;
+    color: yellow;
+    margin-top: 2.4rem;
+}
+
+.typepage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 20px;
+    margin-top: 2.4rem;
+}
+
+.typepage button {
+    padding: 10px;
+    width: 150px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: #3BB900;
+}
+.button-dark {
+    background-color: black;
+}
+.button-darkblue{
+    background-color: blue;
+}
+.button-yellow{
+    background-color: #FFE600;
+}
+.button-lightpink {
+    background-color: lightpink;
+}
+.button-red {
+    background-color: red;
+}
+.button-orange {
+    background-color: orange;
+}
+.button-lightgray{
+    background-color: rgb(168, 168, 168);
+}
+.button-purple {
+    background-color: rgb(94, 1, 94);
+}
+.button-darkgreen{
+    background-color: darkgreen;
+}
+.button-brown {
+    background-color: brown;
+}
+.button-lightblue{
+    background-color: lightblue;
+}
+.button-lightgreen{
+    background-color: rgb(85, 216, 85);
+}
+.button-lightpurple{
+    background-color: rgb(148, 1, 148);
+}
+.button-pink{
+    background-color: pink;
+}
+.button-darkyellow{
+    background-color: rgb(148, 113, 0);
+}
+.button-blue{
+    background-color: rgb(72, 72, 245);
+}
+
+.typepage-search-button{
+    margin-top: 10rem;
+    text-align: center;
+    padding: 10px 20px;
+}
