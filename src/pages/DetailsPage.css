@@ -1,2 +1,28 @@
-.details-page {
+.details-page .pokemon-img__container {
+	width: 60%;
+	margin: 0 auto;
+	height: 150px;
+}
+
+.details-page .pokemon-img__box {
+	background-image: linear-gradient(
+		to right top,
+		rgb(186, 193, 225),
+		rgb(24, 87, 98)
+	);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-radius: 20px;
+}
+
+.details-page .pokemon-img__img {
+	height: 150%;
+	padding: 10px;
+}
+
+.details-page h2 {
+	text-align: center;
+	color: #ffcd02;
 }
