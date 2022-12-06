@@ -1,9 +1,17 @@
+import GridItem from "../components/Pokemon-Overview/GridItem";
 import "./HomePage.css";
 
 const HomePage = () => {
 	return (
 		<section className="home-page">
-			<p>Home</p>
+			<div className="grid">
+				<GridItem />
+				<GridItem />
+				<GridItem />
+				<GridItem />
+				<GridItem />
+				<GridItem />
+			</div>
 		</section>
 	);
 };

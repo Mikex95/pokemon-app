@@ -1,5 +1,9 @@
 .home-page {
+	padding-top: 50px;
 }
 
-.home-page p {
+.home-page .grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
 }
