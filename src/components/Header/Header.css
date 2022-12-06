@@ -1,64 +1,85 @@
-header div {
-  display: flex;
-  justify-content: space-between;
+header {
+	margin-bottom: 6rem;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
-  width: 20rem;
-  height: 20rem;
+	width: 20rem;
+	height: 20rem;
 }
 
 .image-wrapper {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
+}
+
+.modus-icon {
+	cursor: pointer;
+	transform: scaleX(-1);
+	transition: transform 0.4s;
+}
+
+.modus-icon:hover {
+	transform: scaleX(1);
 }
 
 /* ==================== Burger Menu ================== */
 
 .menu-icon {
-  margin-top: 0.8rem;
-  width: 20px;
-  height: 14px;
-  cursor: pointer;
-  position: relative;
+	width: 20px;
+	height: 14px;
+	cursor: pointer;
+	position: relative;
 }
 .menu-icon span {
-  background-color: white;
-  height: 2px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  transition: all 0.3s ease;
+	background-color: white;
+	height: 2px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	transition: all 0.3s ease;
 }
 .menu-icon span:first-child {
-  top: 0;
+	top: 0;
 }
 .menu-icon span:nth-child(2) {
-  top: 6px;
+	top: 6px;
 }
 .menu-icon span:last-child {
-  top: 12px;
+	top: 12px;
 }
 .menu-icon:hover span:nth-child(2) {
-  opacity: 0;
+	opacity: 0;
 }
 .menu-icon:hover span:first-child,
 .menu-icon:hover span:last-child {
-  top: 6px;
-  background-color: red;
+	top: 6px;
+	background-color: red;
 }
 .menu-icon:hover span:first-child {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .menu-icon:hover span:last-child {
-  transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 /* ================== Inputfield ============ */
 
-input {
-  border-radius: 2rem;
-  width: 25rem;
+header input {
+	border-radius: 2rem;
+	width: 25rem;
+	padding: 0.5rem;
+	padding-left: 2rem;
+	border: none;
+	outline: 3px solid rgba(255, 0, 0, 0);
+	transition: all 0.3s;
+}
 
-  padding: 0.3rem;
+header input:focus {
+	outline: 3px solid red;
 }
