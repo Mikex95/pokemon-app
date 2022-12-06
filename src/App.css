@@ -1,19 +1,19 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .App {
-	width: 400px;
-	margin: 50px auto;
-	background-color: rgb(30, 30, 30);
-	color: white;
-	padding: 20px;
-	font-size: 1.6rem;
-	border-radius: 20px;
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 20px;
+  font-size: 1.6rem;
+  border-radius: 20px;
 }
