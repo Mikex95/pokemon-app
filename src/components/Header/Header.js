@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../img/pokemon-logo-png-1421.png";
 import modus from "../../img/Vector.png";
-import filter from "./filter.png";
 
 const Header = () => {
   return (
