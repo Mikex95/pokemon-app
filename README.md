@@ -4,8 +4,8 @@
 
 - Next, Previous Button auf Homepage -- MATTHIAS
 - Suchfunktion
-- id wird immer mit 3 Ziffern angezeigt -- MIKE
-- Name wird mit Großbuchstaben gestartet -- MIKE
+- id wird immer mit 3 Ziffern angezeigt -- MIKE -- Check
+- Name wird mit Großbuchstaben gestartet -- MIKE -- Check
 - x auf Type-Page schöner machen -- MIKE
 - Burger-Menü-Button semantisch korrekt gestalten -- TAYFUN
 - Zurück-Pfeil auf Detailseite, führt zu Home -- TAYFUN
