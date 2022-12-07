@@ -3,9 +3,6 @@
 ## Aufgaben
 
 - Suchfunktion -- Matthias
-- Detailseite zeigt Namen, Id und Bild abhängig von der URL an
-
-- Zurück-Pfeil auf Detailseite, führt zu Home -- TAYFUN
 
 - Filtern nach Typ: mehrere Filter auswählbar, mit Search Suche starten, alle passenden Pokemons auf einer Übersichtsseite anzeigen lassen, Option Filter löschen einbauen
 
@@ -18,3 +15,5 @@
 - x auf Type-Page schöner machen -- MIKE -- Check
 - Next, Previous Button auf Homepage -- MATTHIAS -- Check
 - Burger-Menü-Button semantisch korrekt gestalten -- TAYFUN -- Check
+- Zurück-Pfeil auf Detailseite, führt zu Home -- TAYFUN -- Check
+- Detailseite zeigt Namen, Id und Bild abhängig von der URL an -- Mike -- Check
