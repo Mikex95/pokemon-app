@@ -1,14 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import "./Header.css";
 import logo from "../../img/pokemon-logo-png-1421.png";
 import modus from "../../img/Vector.png";
+import BackArrow from "./BackArrow";
 
 const Header = () => {
+	const navigate = useNavigate();
+
 	const searchHandler = (event) => {
+		// Neu laden verhindern
 		event.preventDefault();
 
-		console.log(event.target[0].value.toLowerCase());
+		// Feld auslesen und leeren
+		let inputValue = event.target[0].value.toLowerCase();
 		event.target[0].value = "";
+
+		// Fetch Pokemon-Daten
+		fetch(`https://pokeapi.co/api/v2/pokemon/${inputValue}`)
+			.then((response) => response.json())
+			.then((data) => {
+				navigate(`/details/${data.id}`);
+			});
 	};
 
 	return (
@@ -18,11 +30,7 @@ const Header = () => {
 			</div>
 			<div className="flex-container">
 				<Link to={"/types"}>
-					<div className="menu-icon">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
+					<BackArrow />
 				</Link>
 
 				<form onSubmit={searchHandler}>
