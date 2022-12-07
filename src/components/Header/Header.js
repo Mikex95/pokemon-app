@@ -4,6 +4,13 @@ import logo from "../../img/pokemon-logo-png-1421.png";
 import modus from "../../img/Vector.png";
 
 const Header = () => {
+	const searchHandler = (event) => {
+		event.preventDefault();
+
+		console.log(event.target[0].value.toLowerCase());
+		event.target[0].value = "";
+	};
+
 	return (
 		<header>
 			<div className="image-wrapper">
@@ -17,7 +24,11 @@ const Header = () => {
 						<span></span>
 					</div>
 				</Link>
-				<input type="text" name="" id="" placeholder="Search Pokemon" />
+
+				<form onSubmit={searchHandler}>
+					<input type="text" placeholder="Search Pokemon" />
+				</form>
+
 				<img src={modus} alt="modus" className="modus-icon" />
 			</div>
 		</header>
