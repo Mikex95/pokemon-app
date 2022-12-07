@@ -28,7 +28,7 @@ header {
   transform: scaleX(1);
 }
 
-/* ==================== Burger Menu ================== */
+/* ==================== Burger Menu bei home ================== */
 
 #webapp_cover {
   width: 39px;
@@ -152,6 +152,8 @@ header {
     transform: rotateZ(0);
   }
 }
+
+/* ================== Burger Menü bei Detail ====================== */
 
 /* ================== Inputfield ============ */
 
