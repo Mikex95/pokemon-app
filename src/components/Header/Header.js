@@ -1,4 +1,5 @@
 import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useState } from "react";
 import "./Header.css";
 import logo from "../../img/pokemon-logo-png-1421.png";
 import modus from "../../img/Vector.png";
@@ -20,6 +21,7 @@ const Header = (props) => {
 			.then((response) => response.json())
 			.then((data) => {
 				navigate(`/details/${data.id}`);
+				window.location.reload(false);
 			});
 	};
 
