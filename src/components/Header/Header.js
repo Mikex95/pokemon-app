@@ -2,7 +2,6 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import "./Header.css";
 import logo from "../../img/pokemon-logo-png-1421.png";
 import modus from "../../img/Vector.png";
-import BackArrow from "./BackArrow";
 
 const Header = () => {
 	const navigate = useNavigate();
@@ -29,10 +28,6 @@ const Header = () => {
 				<img src={logo} alt="Logo" className="logo" />
 			</div>
 			<div className="flex-container">
-				<Link to={"/types"}>
-					<BackArrow />
-				</Link>
-
 				<form onSubmit={searchHandler}>
 					<input type="text" placeholder="Search Pokemon" />
 				</form>
