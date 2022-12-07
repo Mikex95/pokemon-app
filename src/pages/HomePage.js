@@ -6,12 +6,15 @@ import "./HomePage.css";
 const HomePage = () => {
 	const [pokemon, setPokemon] = useState([]);
 	const [loading, setLoading] = useState(true);
+	const [currentUrl, setCurrentUrl] = useState(
+		"https://pokeapi.co/api/v2/pokemon"
+	);
 	const [nextPageUrl, setNextPageUrl] = useState();
 	const [previousPageUrl, setPreviousPageUrl] = useState();
 
 	useEffect(() => {
 		setLoading(true);
-		fetch("https://pokeapi.co/api/v2/pokemon")
+		fetch(currentUrl)
 			.then((response) => response.json())
 			.then((data) => {
 				setPokemon(data.results);
@@ -19,7 +22,15 @@ const HomePage = () => {
 				setPreviousPageUrl(data.previous);
 				setLoading(false);
 			});
-	}, []);
+	}, [currentUrl]);
+
+	const nextHandler = () => {
+		setCurrentUrl(nextPageUrl);
+	};
+
+	const prevHandler = () => {
+		setCurrentUrl(previousPageUrl);
+	};
 
 	if (loading) {
 		return "Waiting......";
@@ -32,6 +43,10 @@ const HomePage = () => {
 				{pokemon.map((element) => {
 					return <GridItem key={element.name} url={element.url} />;
 				})}
+			</div>
+			<div className="prev-next-button-container">
+				{previousPageUrl != null && <button onClick={prevHandler}>«</button>}
+				{nextPageUrl != null && <button onClick={nextHandler}>»</button>}
 			</div>
 		</section>
 	);
