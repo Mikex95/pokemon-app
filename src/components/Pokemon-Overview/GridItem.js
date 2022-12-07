@@ -1,5 +1,6 @@
 import "./GridItem.css";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const GridItem = (props) => {
 	const [pokeInfo, setPokeInfo] = useState([]);
@@ -21,19 +22,21 @@ const GridItem = (props) => {
 
 	return (
 		<article className="pokemon-grid-item">
-			<div>
-				<div className="grid-item__top">
-					<img
-						src={pokeInfo.sprites.other.home.front_shiny}
-						alt="pokemon"
-						className="pokemon-item-img"
-					/>
+			<Link to={`/details/${pokeInfo.id}`}>
+				<div>
+					<div className="grid-item__top">
+						<img
+							src={pokeInfo.sprites.other.home.front_shiny}
+							alt="pokemon"
+							className="pokemon-item-img"
+						/>
+					</div>
+					<div className="grid-item__bottom">
+						<p>#{pokeInfo.id}</p>
+						<p>{pokeInfo.name}</p>
+					</div>
 				</div>
-				<div className="grid-item__bottom">
-					<p>#{pokeInfo.id}</p>
-					<p>{pokeInfo.name}</p>
-				</div>
-			</div>
+			</Link>
 		</article>
 	);
 };
