@@ -31,3 +31,8 @@
 	height: 140%;
 	padding: 10px;
 }
+
+.grid-item-uppercase {
+	text-transform: capitalize;
+}
+

@@ -111,3 +111,14 @@
     font-weight: 800;
     cursor: pointer;
 }
+
+.cancel-button {
+	background-color: #FFE600;
+	border-radius: 20px;
+	outline: blue 2px solid;
+}
+
+.cancel-button:hover {
+	background-color: red;
+	transition: 0.3s;
+}

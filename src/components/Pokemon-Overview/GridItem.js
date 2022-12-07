@@ -19,6 +19,9 @@ const GridItem = (props) => {
 	if (loading) {
 		return "Waiting......";
 	}
+	
+	// const str1 = '5';
+	// console.log(str1.padStart(2, '0'));
 
 	return (
 		<article className="pokemon-grid-item">
@@ -32,8 +35,8 @@ const GridItem = (props) => {
 						/>
 					</div>
 					<div className="grid-item__bottom">
-						<p>#{pokeInfo.id}</p>
-						<p>{pokeInfo.name}</p>
+						<p>#{pokeInfo.id.toString().padStart(2, "0")}</p>
+						<p className="grid-item-uppercase">{pokeInfo.name}</p>
 					</div>
 				</div>
 			</Link>
