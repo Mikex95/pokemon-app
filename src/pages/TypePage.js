@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./TypePage.css"
 import logo from '../img/pokemon-logo-small.png';
+import cancelButton from '../img/cancel.png';
 
 
 const Typepage = () => {
@@ -12,7 +13,7 @@ const Typepage = () => {
             <div>
             <Link to="/">
                 <button className="typepage-closing-button">
-                    X
+                    <img className="cancel-button" src={cancelButton} alt="cancel-button" />
                 </button>
             </Link>
             </div>
