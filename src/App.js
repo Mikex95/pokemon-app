@@ -7,13 +7,17 @@ import TypePage from "./pages/TypePage";
 function App() {
 	return (
 		<div className="App">
-			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<HomePage />}></Route>
-					<Route path="/details/:id" element={<DetailsPage />}></Route>
-					<Route path="/types" element={<TypePage />}></Route>
-				</Routes>
-			</BrowserRouter>
+			<div class="tablet">
+				<div class="content">
+					<BrowserRouter>
+						<Routes>
+							<Route path="/" element={<HomePage />}></Route>
+							<Route path="/details/:id" element={<DetailsPage />}></Route>
+							<Route path="/types" element={<TypePage />}></Route>
+						</Routes>
+					</BrowserRouter>
+				</div>
+			</div>
 		</div>
 	);
 }
