@@ -2,13 +2,10 @@
 
 ## Aufgaben
 
-<<<<<<< HEAD
 - "App Look" -- Matthias
 - Handy Rahmen -- Matthias
 - Delay einbauen für den loader
 
-=======
->>>>>>> 99e3b6e836c4b318478553b2c6437c5fe2607c14
 - Filtern nach Typ: mehrere Filter auswählbar, mit Search Suche starten, alle passenden Pokemons auf einer Übersichtsseite anzeigen lassen, Option Filter löschen einbauen -- Mike
 
 - Light/Dark Mode
