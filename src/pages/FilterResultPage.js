@@ -5,8 +5,6 @@ import "./FilterResultPage.css";
 const FilterResultPage = (props) => {
 	let page = "Details";
 
-	// console.log(props);
-
 	return (
 		<section className="filter-result-page">
 			<Header page={page} />

@@ -55,7 +55,10 @@ const Typepage = () => {
 							</Link>
 						</div>
 					</section>
-					<h1>TYPE</h1>
+					<div className="heading">
+						<h1>TYPE</h1>
+					</div>
+
 					<div className="typepage-grid">
 						{filter.map((elt, index) => {
 							return (
@@ -63,7 +66,7 @@ const Typepage = () => {
 									<Link>
 										<button
 											onClick={handleInput}
-											className="buttons"
+											className={`buttons ${elt.name}`}
 											value={elt.name}
 										>
 											{elt.name}

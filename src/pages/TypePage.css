@@ -9,7 +9,7 @@
 .typepage-closing-button {
 	font-size: 3.6rem;
 	color: white;
-	background-color: rgb(30, 30, 30);
+	background-color: rgb(48, 48, 48);
 	border: none;
 	font-weight: 500;
 	cursor: pointer;
@@ -17,12 +17,17 @@
 
 /* Type Section with Buttons */
 
+.typepage .heading {
+	display: flex;
+	justify-content: center;
+}
+
 .typepage h1 {
 	text-align: center;
-	color: yellow;
+	color: #ffcd02;
 	margin-top: 2.4rem;
 	font-size: 3.6rem;
-	border-radius: 20px;
+	width: 85%;
 	border-bottom: #2c72b89b 1px solid;
 }
 .typepage-grid {
@@ -42,70 +47,70 @@
 	border: none;
 	font-weight: 800;
 	cursor: pointer;
-	background-color: #ffe600;
+	background-color: #ffcd02;
 	color: blue;
 	text-transform: capitalize;
 }
 
-/* .button-green {
-    background-color: #3BB900;
+.button-green {
+	background-color: #3bb900;
 }
 .button-dark {
-    background-color: black;
+	background-color: black;
 }
-.button-darkblue{
-    background-color: blue;
+.button-darkblue {
+	background-color: blue;
 }
-.button-yellow{
-    background-color: #FFE600;
+.button-yellow {
+	background-color: #ffe600;
 }
 .button-lightpink {
-    background-color: lightpink;
+	background-color: lightpink;
 }
 .button-red {
-    background-color: red;
+	background-color: red;
 }
 .button-orange {
-    background-color: orange;
+	background-color: orange;
 }
-.button-lightgray{
-    background-color: rgb(168, 168, 168);
+.button-lightgray {
+	background-color: rgb(168, 168, 168);
 }
 .button-purple {
-    background-color: rgb(94, 1, 94);
+	background-color: rgb(94, 1, 94);
 }
-.button-darkgreen{
-    background-color: darkgreen;
+.button-darkgreen {
+	background-color: darkgreen;
 }
 .button-brown {
-    background-color: brown;
+	background-color: brown;
 }
-.button-lightblue{
-    background-color: lightblue;
+.button-lightblue {
+	background-color: lightblue;
 }
-.button-lightgreen{
-    background-color: rgb(85, 216, 85);
+.button-lightgreen {
+	background-color: rgb(85, 216, 85);
 }
-.button-lightpurple{
-    background-color: rgb(148, 1, 148);
+.button-lightpurple {
+	background-color: rgb(148, 1, 148);
 }
-.button-pink{
-    background-color: pink;
+.button-pink {
+	background-color: pink;
 }
-.button-darkyellow{
-    background-color: rgb(148, 113, 0);
+.button-darkyellow {
+	background-color: rgb(148, 113, 0);
 }
-.button-blue{
-    background-color: rgb(72, 72, 245);
-} */
+.button-blue {
+	background-color: rgb(72, 72, 245);
+}
 
 .cancel-button {
-	background-color: #ffe600;
+	background-color: #fff;
 	border-radius: 20px;
-	outline: blue 2px solid;
+	/* outline: blue 2px solid; */
 }
 
 .cancel-button:hover {
-	background-color: red;
+	background-color: #ffcd02;
 	transition: 0.3s;
 }
