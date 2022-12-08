@@ -1,23 +1,49 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .App {
-	width: 400px;
-	margin: 50px auto;
-	background-color: rgb(30, 30, 30);
-	color: white;
-	padding: 20px;
-	font-size: 1.6rem;
-	border-radius: 20px;
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 20px;
+  font-size: 1.6rem;
+  border-radius: 20px;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
+}
+
+/* ============== Loader================= */
+
+.loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

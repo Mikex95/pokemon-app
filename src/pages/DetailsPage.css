@@ -1,105 +1,103 @@
 .details-page .pokemon-img__container {
-	width: 60%;
-	margin: 0 auto;
-	height: 150px;
+  width: 60%;
+  margin: 0 auto;
+  height: 150px;
 }
 
 .details-page .pokemon-img__box {
-	background-image: linear-gradient(
-		to right top,
-		rgb(186, 193, 225),
-		rgb(24, 87, 98)
-	);
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	border-radius: 20px;
+  background-image: linear-gradient(
+    to right top,
+    rgb(186, 193, 225),
+    rgb(24, 87, 98)
+  );
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 20px;
 }
 
 .details-page .pokemon-img__img {
-	height: 150%;
-	padding: 10px;
+  height: 150%;
+  padding: 10px;
 }
 
 .details-page h2 {
-	text-align: center;
-	color: white;
+  text-align: center;
+  color: white;
 }
 
-.name-uppercase{
-	text-transform: capitalize;
+.name-uppercase {
+  text-transform: capitalize;
 }
 
-.details-page .wrapper-details{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 30px;
-	
+.details-page .wrapper-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .wrapper-moves {
-	display: flex;
-	justify-content: center;
-	color: #ffcd02;
-	font-size: 2.4rem;
-	font-weight: 800;
-	gap: 30px;
-	padding-top: 2rem;
-	text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  color: #ffcd02;
+  font-size: 2.4rem;
+  font-weight: 800;
+  gap: 30px;
+  padding-top: 2rem;
+  text-transform: capitalize;
 }
-
 
 .moves {
-	padding-top: 2rem;
-	color: red;
-	text-align: center;
-	font-size: 3rem;
-	text-decoration: underline;
+  padding-top: 2rem;
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
-.details-grid{
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	align-items: center;
-	justify-items: center;
-	border-bottom: 1px solid rgba(126, 126, 126, 0.344);
-	padding-bottom: 20px;
-	margin-top: 20px;
-	text-align: center;
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  border-bottom: 1px solid rgba(126, 126, 126, 0.344);
+  padding-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .details-type-container {
-	display: flex;
-	gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .line {
- border-right: 1px solid rgba(126, 126, 126, 0.652);
- padding-right: 10px;
- height: 40px;
+  border-right: 1px solid rgba(126, 126, 126, 0.652);
+  padding-right: 10px;
+  height: 40px;
 }
 
 .wrapper-properties {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
-.properties{
-	margin-top: 10px;
-	color: yellow;
-	text-transform: uppercase;
-	text-align: center;
+.properties {
+  margin-top: 10px;
+  color: yellow;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .details-attack-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	justify-items: center;
-	text-transform: capitalize;
-	margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  text-transform: capitalize;
+  margin-top: 20px;
 }
 
 .types-properties {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }

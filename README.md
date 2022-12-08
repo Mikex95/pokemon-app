@@ -4,6 +4,7 @@
 
 - "App Look" -- Matthias
 - Handy Rahmen -- Matthias
+- Delay einbauen für den loader
 
 - Filtern nach Typ: mehrere Filter auswählbar, mit Search Suche starten, alle passenden Pokemons auf einer Übersichtsseite anzeigen lassen, Option Filter löschen einbauen -- Mike
 

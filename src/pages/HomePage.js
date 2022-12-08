@@ -34,7 +34,11 @@ const HomePage = () => {
   };
 
   if (loading) {
-    return "Waiting......";
+    return (
+      <div className="loader-container">
+        <div className="loader"></div>
+      </div>
+    );
   }
 
   return (
