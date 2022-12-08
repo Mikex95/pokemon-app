@@ -56,7 +56,7 @@ const Typepage = () => {
 						</div>
 					</section>
 					<div className="heading">
-						<h1>TYPE</h1>
+						<h1>Type Filter</h1>
 					</div>
 
 					<div className="typepage-grid">
