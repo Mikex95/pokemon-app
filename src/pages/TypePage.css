@@ -33,6 +33,7 @@
     margin-top: 3.6rem;
 }
 
+
 .buttons {
     padding: 1.0rem;
     width: 150px;
@@ -42,9 +43,12 @@
     border: none;
     font-weight: 800;
     cursor: pointer;
+    background-color: #FFE600;
+    color: blue;
+    text-transform: capitalize;
 }
 
-.button-green {
+/* .button-green {
     background-color: #3BB900;
 }
 .button-dark {
@@ -94,15 +98,15 @@
 }
 .button-blue{
     background-color: rgb(72, 72, 245);
-}
+} */
 
 .typepage-search-button{
-    margin-top: 10rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .typepage-button-search{
-    padding: 1.0rem 3.6rem;
+    padding: 1rem 2rem;
     border-radius: 1rem;
     border: 0.5rem #2C72B8 solid;
     background-color: yellow;
