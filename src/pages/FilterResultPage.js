@@ -5,13 +5,15 @@ import "./FilterResultPage.css";
 const FilterResultPage = (props) => {
 	let page = "Details";
 
+	// console.log(props);
+
 	return (
 		<section className="filter-result-page">
 			<Header page={page} />
 
 			<div className="grid">
-				{props.pokemon.map((element) => {
-					return <GridItem key={element.name} url={element.url} />;
+				{props.filteredPokemons.map((element, index) => {
+					return <GridItem key={index} url={element.pokemon.url} />;
 				})}
 			</div>
 		</section>

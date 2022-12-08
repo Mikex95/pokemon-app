@@ -8,8 +8,8 @@ import FilterResultPage from "./pages/FilterResultPage";
 function App() {
 	return (
 		<div className="App">
-			<div class="tablet">
-				<div class="content">
+			<div className="tablet">
+				<div className="content">
 					<BrowserRouter>
 						<Routes>
 							<Route path="/" element={<HomePage />}></Route>

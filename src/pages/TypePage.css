@@ -1,51 +1,50 @@
 /* -----Headarea----- */
 
-.typepage-wrapper-headarea{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.typepage-wrapper-headarea {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.typepage-closing-button{
-    font-size: 3.6rem;
-    color: white;
-    background-color:rgb(30, 30, 30);
-    border: none;
-    font-weight: 500;
-    cursor: pointer;
+.typepage-closing-button {
+	font-size: 3.6rem;
+	color: white;
+	background-color: rgb(30, 30, 30);
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
 }
 
 /* Type Section with Buttons */
 
 .typepage h1 {
-    text-align: center;
-    color: yellow;
-    margin-top: 2.4rem;
-    font-size: 3.6rem;
-    border-radius: 20px;
-    border-bottom: #2c72b89b 1px solid;
+	text-align: center;
+	color: yellow;
+	margin-top: 2.4rem;
+	font-size: 3.6rem;
+	border-radius: 20px;
+	border-bottom: #2c72b89b 1px solid;
 }
 .typepage-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    gap: 1.6rem;
-    margin-top: 3.6rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	text-align: center;
+	gap: 1.6rem;
+	margin-top: 3.6rem;
 }
 
-
 .buttons {
-    padding: 1.0rem;
-    width: 150px;
-    font-size: 1.4rem;
-    color: white;
-    border-radius: 0.5rem;
-    border: none;
-    font-weight: 800;
-    cursor: pointer;
-    background-color: #FFE600;
-    color: blue;
-    text-transform: capitalize;
+	padding: 1rem;
+	width: 150px;
+	font-size: 1.4rem;
+	color: white;
+	border-radius: 0.5rem;
+	border: none;
+	font-weight: 800;
+	cursor: pointer;
+	background-color: #ffe600;
+	color: blue;
+	text-transform: capitalize;
 }
 
 /* .button-green {
@@ -100,24 +99,8 @@
     background-color: rgb(72, 72, 245);
 } */
 
-.typepage-search-button{
-    margin-top: 2rem;
-    text-align: center;
-}
-
-.typepage-button-search{
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    border: 0.5rem #2C72B8 solid;
-    background-color: yellow;
-    color: #2C72B8;
-    font-size: 2rem;
-    font-weight: 800;
-    cursor: pointer;
-}
-
 .cancel-button {
-	background-color: #FFE600;
+	background-color: #ffe600;
 	border-radius: 20px;
 	outline: blue 2px solid;
 }
