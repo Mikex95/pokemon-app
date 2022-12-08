@@ -2,10 +2,13 @@
 
 ## Aufgaben
 
+<<<<<<< HEAD
 - "App Look" -- Matthias
 - Handy Rahmen -- Matthias
 - Delay einbauen für den loader
 
+=======
+>>>>>>> 99e3b6e836c4b318478553b2c6437c5fe2607c14
 - Filtern nach Typ: mehrere Filter auswählbar, mit Search Suche starten, alle passenden Pokemons auf einer Übersichtsseite anzeigen lassen, Option Filter löschen einbauen -- Mike
 
 - Light/Dark Mode
@@ -19,3 +22,5 @@
 - Detailseite zeigt Namen, Id und Bild abhängig von der URL an -- Mike -- Check
 - Detailseite mit dynamisch mit Informationen befüllen: typen, Liste von moves ausgeben (begrenzen auf die ersten 3): "moves" ist ein Array, name gibt Namen des Moves an. Liste von Attacks auf 3 begrenzen: stats/zweites_Element_des_Arrays/stat --> Objekt mit Name Attack. Da ist eine URL drin, die die Infos über die Attacks beinhaltet. -- Mike -- Check
 - Suchfunktion -- Matthias -- Check
+- "App Look" -- Matthias -- Check
+- Handy Rahmen -- Matthias -- Check
